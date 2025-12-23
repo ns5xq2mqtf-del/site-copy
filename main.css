@@ -1,0 +1,39 @@
+.main {
+    display:flex;
+    background-color: rgb(215, 215, 215);
+    flex-direction: column;
+}
+
+.counterdisplay {
+    margin: 20px auto;
+}
+span {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    width: 30px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+}
+
+.controlbutton {
+    margin: 0px auto;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(40, 27, 63);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+button:disabled {
+    opacity: 0.6;
+}

@@ -1,50 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>サイト模写</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>ストップウォッチ</title>
   </head>
+
   <body>
-      <div class="header">
-        <div class="header-items">
-        <img class="logo" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo.png" alt="ポテパンキャンプ">
-        <div class="hamburger">
-          <span class="hamburgerline top"></span>
-          <span class="hamburgerline middle"></span>
-          <span class="hamburgerline bottom"></span>
+    <h3>ストップウォッチ</h3>
+    <div class="main">
+        <div class="counterdisplay">
+            <span class="hr">0</span>
+            <span>:</span>
+            <span class="min">0</span>
+            <span>:</span>
+            <span class="sec">0</span>
+            <span>:</span>
+            <span class="mmsec basic">0</span>
         </div>
-        <ul class="menuelist">
-            <li class="menuelistitem"><a class="contactlink" href="https://camp.potepan.com/content">CONTENT<br>学習内容</li></a>
-            <li class="menuelistitem"><a class="interviewlink" href="https://camp.potepan.com/interview">INTERVIEW<br>受講者の声</a></li>
-            <li class="menuelistitem"><a class="qalink" href="https://camp.potepan.com/faq">FAQ<br>よくある質問</a></li>
-            <li class="menuelistitem"><a class="recruitlink" href="https://camp.potepan.com/recruit">RECRUIT<br>採用企業様へ</a></li>
-            <li class="menuelistitem"><a class="u29link" href="https://camp.potepan.com/courses/free-under-29">U29<br>29歳以下の方へ</a></li>
-            <li class="menuelistitem"><a class="menuebottun" href="https://camp.potepan.com/contact">無料カウンセリング</a></li>
-        </ul>
+        <div class="controlbutton">
+            <button class="start">スタート</button>
+            <button class="stop">ストップ</button>
+            <button class="reset">リセット</button>
         </div>
-      </div>
-      </div>
-      <div class="main-container">
-        <div class="mainvisual">
-          <img class="left-triangle" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/left-rectangle.svg" alt="左三角">
-          <img class="right-triangle" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/right-rectangle.svg" alt="右三角">
-          <img class="oval" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/fill-rectangle.svg" alt="長円">
-          <img class="human" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/main-visual.webp" alt="人間">
-        </div>
-        <div class="sub-container">
-        <div class="sub-container-contents">
-          <div class="catchcopy">実践的カリキュラムと<br>
-            豊富な提携求人で<br>確実にITエンジニアへ
-          </div>
-          <img class="circlemark" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/badge.svg" alt="Webエンジニア輩出No.1">
-          <a class="bottun" href="https://camp.potepan.com/contact">まずは無料カウンセリングへ</a>
-          <p class="note">※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査<br>
-            (2020年5月22日～25日)より全国の22～49歳の男女691名へのインターネット調査</p>
-        </div>
-      </div>
-      </div>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
